@@ -1,0 +1,16 @@
+@startuml
+
+class App
+{
+void main()
+}
+class FileHandler
+{
+ArrayList<String> readPeople()
+void outputPeople()
+}
+
+App o->FileHandler
+
+
+@enduml
